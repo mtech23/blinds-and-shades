@@ -1,103 +1,75 @@
 
-import headerBurgerIcon from "./Header-Burger-Menu.png";
-import mainLogo from "./home-logo.png";
-import headerSearchIcon from "./search-icon.png";
-import platinumFeetText from "./platinum-feet-text.png";
-import buttonBackground from "./home-btn-bk.png";
-import legsImage01 from "./hero-img-01.png";
-import imgTopCorner from "./hero-img-top-curve.png";
-import imgBottomCorner from "./hero-img-bottom-curve.png";
-import firstBackground from "./home-section-bk.png";
-import hundredPercentage from "./hundred-percent.png";
-import homeImg01 from "./hero-img-02.png";
-import modelText from "./model-text.png";
-import modelImg01 from "./model-img-01.png";
-import modelImg02 from "./model-img-02.png";
-import modelImg03 from "./model-img-03.png";
-import modelImg04 from "./model-img-04.png";
-import modelImg05 from "./model-img-05.png";
-import modelImg06 from "./model-img-06.png";
-import modelImg07 from "./model-img-07.png";
-import modelCardTopCorner from "./login-page-top-gold-bar.png";
-import modelCardBottomCorner from "./login-page-bottom-gold-bar.png";
-import framePic from "./after-img-frame.png";
-import hoverableImg from "./hover-img.png";
-import mainFrameImg from "./frame-with-hover.png";
-import videoPlayIcon from "./video-play-icon.png";
-import howItWorksText from "./how-it-works-text.png";
-import howItWorksImg from "./how-it-works-img.png";
-import forClientText from "./for-clients-text.png";
-import forClientImg from "./for-clients-left-img.png";
-import forModelsText from "./for-models-text.png";
-import formodelImg01 from "./for_model_left_part.png";
-import formodelImg02 from "./for-models-img-02.png";
-import faqText from "./faq-text.png";
-import footerSocialIcon01 from "./social-icon-01.png";
-import footerSocialIcon02 from "./social-icon-02.png";
-import footerSocialIcon03 from "./social-icon-03.png";
-import footerSocialIcon04 from "./social-icon-04.png";
-import footerSocialIcon05 from "./social-icon-05.png";
-import footerSocialIcon06 from "./social-icon-06.png";
-import hotModelImg01 from "./model-swiper-img.png";
-import userProfilePic from "./profile-pic.png";
-import userProfilePicBackground from "./more-user-profile-pic.png";
-import moreUserProfilePic from "./more-user-profile-pic.png";
-import profileFeetImg01 from "./profile-feet-img-01.png";
-import profileFeetImg02 from "./profile-feet-img-02.png";
-import profileFeetImg03 from "./profile-feet-img-03.png";
-import profileFeetImg04 from "./profile-feet-img-04.png";
-import profileFeetImg05 from "./profile-feet-img-05.png";
-import profileFeetImg06 from "./profile-feet-img-06.png";
+import mainLogo from "./mainLogo.png";
+import heroHeadingImg from "./hero-heading-img.png";
+import heroHeadingFlowerImg from "./Vector.png";
+import heroHeadingSunImg from "./Group 838.png";
+import heroSectionImg01 from "./Rectangle 593.png";
+import heroSectionImg02 from "./Rectangle 592.png";
+import welcomeImg01 from "./vvb1.png";
+import welcomeImg02 from "./Rectangle 598.png";
+import arrowImg from "./arrow.png";
+import portfoliobkImg from "./Group 1171276089.png";
+import portfolioImg01 from "./Rectangle 603.png";
+import portfolioImg02 from "./Rectangle 605.png";
+import portfolioImg03 from "./Group 884.png";
+import productsImg01 from "./image5.png";
+import productsImg02 from "./image6.png";
+import productsImg03 from "./image7.png";
+import productsImg04 from "./image8.png";
+import contactUsBkImg from "./Group 1171276090.png";
+import galleryImg01 from "./Rectangle 606.png";
+import galleryImg02 from "./Rectangle 607.png";
+import galleryImg03 from "./Rectangle 608.png";
+import galleryImg04 from "./Rectangle 609.png";
+import galleryImg05 from "./Rectangle 610.png";
+import galleryImg06 from "./Rectangle 611.png";
+import galleryImg07 from "./Rectangle 612.png";
+import galleryImg08 from "./Rectangle 613.png";
+import facebookIcon from "./facebook.png";
+import twitterIcon from "./twitter.png";
+import instragramIcon from "./instagram.png";
+import linkedinIcon from "./Mask.png";
+import phoneIcon from "./phone.png";
+import mailIcon from "./mail.png";
+import locationIcon from "./location.png";
+import paymentMethodsImg from "./payment.png";
+import footerLogo from "./blindsNshadesllc.png";
 
 
-export{
-    headerBurgerIcon,
+export {
     mainLogo,
-    headerSearchIcon,
-    platinumFeetText,
-    buttonBackground,
-    legsImage01,
-    imgTopCorner,
-    imgBottomCorner,
-    firstBackground,
-    hundredPercentage,
-    homeImg01,
-    modelText,
-    modelImg01,
-    modelCardTopCorner,
-    modelCardBottomCorner,
-    modelImg02,
-    modelImg03,
-    modelImg04,
-    framePic,
-    hoverableImg,
-    mainFrameImg,
-    videoPlayIcon,
-    modelImg05,
-    modelImg06,
-    modelImg07,
-    howItWorksText,
-    howItWorksImg,
-    forClientText,
-    forClientImg,
-    forModelsText,
-    formodelImg01,
-    formodelImg02,
-    faqText,
-    footerSocialIcon01,
-    footerSocialIcon02,
-    footerSocialIcon03,
-    footerSocialIcon04,
-    footerSocialIcon05,
-    footerSocialIcon06,
-    hotModelImg01,
-    userProfilePic,
-    userProfilePicBackground,
-    moreUserProfilePic,
-    profileFeetImg01,
-    profileFeetImg02,
-    profileFeetImg03,
-    profileFeetImg04,
-    profileFeetImg05,
-    profileFeetImg06
-};
+    heroHeadingImg,
+    heroHeadingFlowerImg,
+    heroHeadingSunImg,
+    heroSectionImg01,
+    heroSectionImg02,
+    welcomeImg01,
+    welcomeImg02,
+    arrowImg,
+    portfoliobkImg,
+    portfolioImg01,
+    portfolioImg02,
+    portfolioImg03,
+    productsImg01,
+    productsImg02,
+    productsImg03,
+    productsImg04,
+    contactUsBkImg,
+    galleryImg01,
+    galleryImg02,
+    galleryImg03,
+    galleryImg04,
+    galleryImg05,
+    galleryImg06,
+    galleryImg07,
+    galleryImg08,
+    facebookIcon,
+    twitterIcon,
+    instragramIcon,
+    linkedinIcon,
+    phoneIcon,
+    mailIcon,
+    locationIcon,
+    paymentMethodsImg,
+    footerLogo
+}

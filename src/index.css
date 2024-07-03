@@ -1,13 +1,45 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+ 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'poppinsRegular';
+  src: url('./asserts/fonts/Poppins-Regular.ttf');
 }
+
+@font-face {
+  font-family: 'poppinsLight';
+  src: url('./asserts/fonts/Poppins-Light.ttf');
+}
+
+@font-face {
+  font-family: 'poppinsMedium';
+  src: url('./asserts/fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'RussoOne';
+  src: url('./asserts/fonts/RussoOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('./asserts/fonts/Jost-Light.ttf');
+}
+
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'RussoOne';
+  margin: 0;
+	padding: 0;
+}
+
+p, span, ul, a{
+  font-family: 'poppinsMedium';
+  margin: 0;
+	padding: 0;
+}
+
