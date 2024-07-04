@@ -1,16 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./style.css";
-
-import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import { mainLogo } from "../../../asserts/images";
+import CustomButton from "../../CustomButton";
 
 const Header = () => {
+  const navigate = useNavigate();
   return (
     <header>
       <Navbar expand="lg" className="bg-body-tertiary">
@@ -24,13 +24,12 @@ const Header = () => {
             <Nav
               className="mx-auto my-2 my-lg-0"
               style={{ maxHeight: "100px" }}
-            
               navbarScroll
             >
-              <Nav.Link as={Link}  to="/">
+              <Nav.Link as={Link} to="/">
                 Home
               </Nav.Link>
-              <Nav.Link as={Link}  to="/about">
+              <Nav.Link as={Link} to="/about">
                 About us
               </Nav.Link>
               <Nav.Link as={Link} href="#" to="/portfolio">
@@ -48,9 +47,13 @@ const Header = () => {
             </Nav>
 
             <div className="d-flex">
-              <Button variant="outline-success">Search</Button>
+              <CustomButton
+                type="button"
+                className=""
+                text="login"
+                onClick={() => navigate("/about")}
+              />
             </div>
-
           </Navbar.Collapse>
         </Container>
       </Navbar>

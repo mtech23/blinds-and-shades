@@ -34,6 +34,8 @@ import mailIcon from "./mail.png";
 import locationIcon from "./location.png";
 import paymentMethodsImg from "./payment.png";
 import footerLogo from "./blindsNshadesllc.png";
+import plusLogo from "./plus.png";
+import dollarLogo from "./dollaar.png";
 
 
 export {
@@ -71,5 +73,7 @@ export {
     mailIcon,
     locationIcon,
     paymentMethodsImg,
-    footerLogo
+    footerLogo,
+    plusLogo,
+    dollarLogo
 }

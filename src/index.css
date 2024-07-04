@@ -43,3 +43,29 @@ p, span, ul, a{
 	padding: 0;
 }
 
+
+.primaryHeading{
+  text-transform: uppercase;
+  font-size: 50px;
+  margin: 0px;
+}
+
+.secondary_heading{
+  text-transform: uppercase;
+  font-size: 38px;
+  margin: 0px;
+}
+
+.yellowActionBtn{
+  background-color: #FFA506;
+  border: 1px solid #FFA506 !important;
+  color: #1B2E51;
+  transition: all 0.2s ease-in-out;
+}
+
+.yellowActionBtn:hover{
+  background-color: #1B2E51;
+  border: 1px solid #1B2E51 !important;
+  color: #FFA506;
+}
+
