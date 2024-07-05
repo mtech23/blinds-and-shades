@@ -36,7 +36,7 @@ import paymentMethodsImg from "./payment.png";
 import footerLogo from "./blindsNshadesllc.png";
 import plusLogo from "./plus.png";
 import dollarLogo from "./dollaar.png";
-
+import anonymous from "./anonymous.png";
 
 export {
     mainLogo,
@@ -75,5 +75,6 @@ export {
     paymentMethodsImg,
     footerLogo,
     plusLogo,
-    dollarLogo
+    dollarLogo,
+    anonymous
 }

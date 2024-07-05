@@ -74,9 +74,9 @@ const Footer = () => {
              </h6>
 
              <ul className="footer_links_list list-unstyled">
-              <li ><Link className="footer_detail">About Us</Link></li>
-              <li ><Link className="footer_detail">Blogs</Link></li>
-              <li ><Link className="footer_detail">Contact Us</Link></li>
+              <li ><Link className="footer_detail" to="/about">About Us</Link></li>
+              <li ><Link className="footer_detail" to="/blogs">Blogs</Link></li>
+              <li ><Link className="footer_detail" to="/contact-us">Contact Us</Link></li>
               <li ><Link className="footer_detail">Privacy Policy</Link></li>
               <li ><Link className="footer_detail">Terms & Conditions</Link></li>
              </ul>
