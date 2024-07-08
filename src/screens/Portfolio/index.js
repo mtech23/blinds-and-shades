@@ -1,20 +1,21 @@
 
 import React from 'react';
 import UserLayout from '../../components/Layout/userlayout';
+import CustomBanner from '../../components/CustomBanner';
+import Portfolio from '../../components/Portfolio';
 
-const Portfolio = () => {
+const PortfolioMain = () => {
   return (
     <>
       <UserLayout>
 
-        <section>
-            <h2>this is the portfolio.</h2>
-        </section>
+       <CustomBanner text="portfolio" className="mb-4"/>
 
+        <Portfolio className="mb-3"/>
 
       </UserLayout>
     </>
   )
 }
 
-export default Portfolio
+export default PortfolioMain

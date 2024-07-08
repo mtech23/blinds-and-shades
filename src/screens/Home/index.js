@@ -2,9 +2,10 @@ import React from "react";
 import UserLayout from "../../components/Layout/userlayout";
 import Homehero from "../../components/Homehero";
 import Welcome from "../../components/Welcome";
-import Portfolio from "../../components/Portfolio";
+import PortfolioMain from "../Portfolio";
 import BestProducts from "../../components/Bestproducts";
 import Gallery from "../../components/gallery";
+import Contact from "../../components/Contact";
 import "./style.css";
 
 const Home = () => {
@@ -16,11 +17,13 @@ const Home = () => {
 
           <Welcome/>
 
-          <Portfolio/>
+          <PortfolioMain />
 
           <BestProducts/>
 
           <Gallery/>
+
+          <Contact/>
        
       </UserLayout>
     </>

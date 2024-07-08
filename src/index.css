@@ -57,17 +57,41 @@ p, span, ul, a{
 }
 
 .yellowActionBtn{
-  background-color: #FFA506;
+  background-color: #FFA506 !important;
   border: 1px solid #FFA506 !important;
   color: #1B2E51;
   transition: all 0.2s ease-in-out;
 }
 
 .yellowActionBtn:hover{
-  background-color: #1B2E51;
+  background-color: #1B2E51 !important;
   border: 1px solid #FFA506 !important;
   color: #FFA506;
 }
 
+@media(max-width: 768px){
+  .primaryHeading{
+    font-size: 36px;
+  }
 
+  .heroHeadingImg img{
+    height: 50px !important;
+  }
+}
+
+@media(max-width: 575px){
+  header{
+    padding: 0px 16px;
+  }
+
+  .primaryHeading {
+    font-size: 28px !important;
+  }
+}
+
+@media(max-width: 375px){
+  .primaryHeading {
+    font-size: 20px !important;
+  }
+}
 

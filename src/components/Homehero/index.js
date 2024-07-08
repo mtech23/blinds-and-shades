@@ -40,7 +40,7 @@ const Homehero = () => {
 
           <div className="hero_section_imgs">
             <Row>
-              <Col md={4}>
+              <Col sm={4} md={4} xs={4} lg={4}>
                 <div className="d-flex justify-content-end h-100 flex-column left_hero_img">
                   <p className="hero_para">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius
@@ -56,10 +56,10 @@ const Homehero = () => {
                 </div>
               </Col>
 
-              <Col md={8}>
-                <div className="position-relative">
-                  <div>
-                    <img src={heroSectionImg02} alt="" className="img-fluid"></img>
+              <Col xs={8} md={8} sm={8} lg={8}>
+                <div className="position-relative h-100">
+                  <div className='h-100'>
+                    <img src={heroSectionImg02} alt="" className="img-fluid h-100"></img>
                   </div>
                   <div className="sunFlowerImg">
                     <img src={heroHeadingSunImg} alt="sunflower_icon"></img>

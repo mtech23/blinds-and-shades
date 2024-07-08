@@ -88,3 +88,48 @@ ul.footer_links_list li{
     font-family: 'Jost';
     font-size: 14px;
 }
+
+.footer_social_icons{
+    padding-bottom: 14px;
+}
+
+.footerbar_para{
+    font-family: 'poppinsLight';
+    font-size: 12px;
+}
+
+.payments_img img{
+    height: 20px;
+}
+
+@media(max-width: 990px){
+
+    .footerLogoImg img{
+        height: auto;
+        width: 100%;
+    }
+    
+    .footer_extra_padding {
+        padding-right: 12px;
+    }
+    }
+
+
+    @media(max-width: 575px){
+        .footerLogoImg img{
+            height: 17px;
+            width: auto;
+        }
+
+        .footerbar_para{
+            text-align: center;
+        }
+
+        .payments_img{
+            text-align: center !important;
+        }
+
+        .payments_img img{
+            height: 30px;
+        }
+        }

@@ -13,8 +13,8 @@ const Header = () => {
   const navigate = useNavigate();
   return (
     <header>
-      <Navbar expand="lg" className="bg-body-tertiary">
-        <Container className="border-bottom pb-2">
+      <Navbar expand="lg" className="pb-0">
+        <Container className="border-bottom pb-3">
           <Navbar.Brand href="#" as={Link} to="/" className="mainLogoImg">
             <img src={mainLogo} alt="site_logo"></img>
           </Navbar.Brand>
@@ -46,7 +46,7 @@ const Header = () => {
               </Nav.Link>
             </Nav>
 
-            <div className="d-flex">
+            <div className="d-flex justify-content-sm-center justify-content-center justify-content-lg-start">
               <CustomButton
                 type="button"
                 className=""

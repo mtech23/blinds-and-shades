@@ -12,13 +12,14 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { portfolioImg01, portfolioImg02, portfolioImg03 } from '../../asserts/images';
 
-const Portfolio = () => {
+const Portfolio = (props) => {
   return (
     <>
-        <section className='portfolio_section'>
+    {/* portfolio_section */}
+        <section className="portfolio_section">
             <Container>
                 <Row className='justify-content-between align-items-center'>
-                    <Col md={5}>
+                    <Col xs={8} sm={8} lg={6}>
                         <div>
                         <div className="d-flex align-items-center justify-content-start gap-4">
                             <h2 className="primaryHeading font_white_color">Our Project</h2>
@@ -36,31 +37,39 @@ const Portfolio = () => {
                         </div>
                     </Col>
 
-                    <Col md={4} className='text-right'>
+                    <Col xs={12} sm={4} lg={4} className='text-right'>
                         <div>
                             <div>
                             <CustomButton
-                        type="button"
-                        className="yellowActionBtn"
-                        text="View All"
-                      />
+                                type="button"
+                                className="yellowActionBtn"
+                                text="View All"
+                            />
                             </div>
                         </div>
                     </Col>
                 </Row>
         </Container>
         </section>
-
-        <div className='portfolio_custom_swiper'>
+        {/* portfolio_custom_swiper */}
+        <div className={`portfolio_custom_swiper ${props?.className}`}>
         <Swiper
-        slidesPerView={3}
+        // slidesPerView={3}
         spaceBetween={20}
         pagination={{
           clickable: true,
         }}
         breakpoints={{
+            320: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          425: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
           640: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 20,
           },
           768: {
@@ -72,6 +81,10 @@ const Portfolio = () => {
             spaceBetween: 20,
           },
           1200: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          1400: {
             slidesPerView: 4,
             spaceBetween: 20,
           },

@@ -14,7 +14,7 @@ const BestProducts = () => {
             <Container>
                 <Row className='align-items-end'>
                    
-                    <Col md={6}>
+                    <Col xs={12} sm={12} lg={6}>
                         <div>
                             <div className="d-flex align-items-center justify-content-start gap-4">
                                 <h2 className="primaryHeading">we provide</h2>
@@ -26,7 +26,7 @@ const BestProducts = () => {
                         </div>
                     </Col>
 
-                    <Col md={6}>
+                    <Col xs={12} sm={12} lg={6}>
                         <div>
                             <div className='anonymousImg'>
                                 <img src={anonymous} alt='anonymous'></img>
@@ -45,7 +45,11 @@ const BestProducts = () => {
                     <div className='borders'>
                         
                     </div>
-                    <Col md={3}>
+
+                    <div className='borders02'>
+                        
+                        </div>
+                    <Col xs={10} sm={6} lg={3} className='mx-auto'>
                         <div className='main_product_card'>
                             <div className='main_product_img'>
                                 <img src={productsImg01} className='img-fluid' alt='productImg'></img>
@@ -60,7 +64,7 @@ const BestProducts = () => {
                             <div>
                                 <CustomButton
                                     type="button"
-                                    className="yellowActionBtn w-100 mb-2"
+                                    className="yellowActionBtn w-100 mb-2 px-2"
                                     text="Request A Quote"
                                 />
                             </div>
@@ -68,14 +72,14 @@ const BestProducts = () => {
                             <div>
                                 <CustomButton
                                     type="button"
-                                    className="w-100"
+                                    className="w-100 px-2"
                                     text="View Product"
                                 />
                             </div>
                         </div>
                     </Col>
 
-                    <Col md={3}>
+                    <Col xs={10} sm={6} lg={3} className='mx-auto'>
                     <div className='main_product_card'>
                             <div className='main_product_img'>
                                 <img src={productsImg02} className='img-fluid' alt='productImg'></img>
@@ -90,7 +94,7 @@ const BestProducts = () => {
                             <div>
                                 <CustomButton
                                     type="button"
-                                    className="yellowActionBtn w-100 mb-2"
+                                    className="yellowActionBtn w-100 mb-2 px-2"
                                     text="Request A Quote"
                                 />
                             </div>
@@ -98,14 +102,14 @@ const BestProducts = () => {
                             <div>
                                 <CustomButton
                                     type="button"
-                                    className="w-100"
+                                    className="w-100 px-2"
                                     text="View Product"
                                 />
                             </div>
                         </div>
                     </Col>
 
-                    <Col md={3}>
+                    <Col xs={10} sm={6} lg={3} className='mx-auto'>
                     <div className='main_product_card'>
                             <div className='main_product_img'>
                                 <img src={productsImg03} className='img-fluid' alt='productImg'></img>
@@ -120,7 +124,7 @@ const BestProducts = () => {
                             <div>
                                 <CustomButton
                                     type="button"
-                                    className="yellowActionBtn w-100 mb-2"
+                                    className="yellowActionBtn w-100 mb-2 px-2"
                                     text="Request A Quote"
                                 />
                             </div>
@@ -128,14 +132,14 @@ const BestProducts = () => {
                             <div>
                                 <CustomButton
                                     type="button"
-                                    className="w-100"
+                                    className="w-100 px-2"
                                     text="View Product"
                                 />
                             </div>
                         </div>
                     </Col>
 
-                    <Col md={3}>
+                    <Col xs={10} sm={6} lg={3} className='mx-auto'>
                     <div className='main_product_card'>
                             <div className='main_product_img'>
                                 <img src={productsImg04} className='img-fluid' alt='productImg'></img>
@@ -150,7 +154,7 @@ const BestProducts = () => {
                             <div>
                                 <CustomButton
                                     type="button"
-                                    className="yellowActionBtn w-100 mb-2"
+                                    className="yellowActionBtn w-100 mb-2 px-2"
                                     text="Request A Quote"
                                 />
                             </div>
@@ -158,7 +162,7 @@ const BestProducts = () => {
                             <div>
                                 <CustomButton
                                     type="button"
-                                    className="w-100"
+                                    className="w-100 px-2"
                                     text="View Product"
                                 />
                             </div>

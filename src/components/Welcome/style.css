@@ -97,6 +97,10 @@ svg {
     .welcome_para{
         font-size: 12px;
     }
+
+    .welcome_right_img_box{
+        margin-top: -30px;
+    }
 }
 
 @media(min-width: 1300px){
@@ -110,6 +114,51 @@ svg {
     .hero_para{
         font-size: 16px;
     }
+}
+
+@media(max-width: 990px){
+    .welcome_right_img_box{
+        margin-top: 20px;
+    }
+
+    .welcome_counts_container {
+        padding: 20px 0px 0px 0px;
+    }
+    
+    .secondary_heading {
+        font-size: 24px;
+    }
+    
+    .total_counts_para {
+        font-size: 10px;
+    }
+    
+    .dollarIconImg img {
+        height: 20px;
+    }
+
+    .plusIconImg img {
+        height: 14px;
+    }
+
+}
+
+@media(max-width: 768px){
+
+    .welcome_para {
+        font-size: 10px;
+    line-height: 24px;
+    }
+
+	.welcome_counts_container{
+	flex-wrap: wrap;
+	}
+
+    .total_counts_para {
+        margin-bottom: 4px;
+    }
+
+
 }
 
 

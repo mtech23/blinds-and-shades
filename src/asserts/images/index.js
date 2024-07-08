@@ -37,6 +37,11 @@ import footerLogo from "./blindsNshadesllc.png";
 import plusLogo from "./plus.png";
 import dollarLogo from "./dollaar.png";
 import anonymous from "./anonymous.png";
+import customBannerImg01 from "./Rectangle 614.png";
+import customBannerImg02 from "./Rectangle 61355.png";
+import aboutImg01 from "./about01.png";
+import aboutImg02 from "./about02.png";
+import aboutImg03 from "./Group 1171276094.png"
 
 export {
     mainLogo,
@@ -76,5 +81,10 @@ export {
     footerLogo,
     plusLogo,
     dollarLogo,
-    anonymous
+    anonymous,
+    customBannerImg01,
+    customBannerImg02,
+    aboutImg01,
+    aboutImg02,
+    aboutImg03
 }

@@ -12,13 +12,13 @@ const Welcome = () => {
          <section className="welcome_section">
         <Container>
           <Row>
-            <Col md={5}>
+            <Col sm={10} lg={5} className='mx-auto order-1 order-sm-1 order-lg-0'>
               <div>
                 <img src={welcomeImg01} alt="welcomeImg01" className="img-fluid"></img>
               </div>
             </Col>
 
-            <Col md={7}>
+            <Col sm={12} lg={7} className='order-0 order-sm-0 order-lg-1'>
               <div className="d-flex h-100 flex-column justify-content-center">
                   <div className="d-flex align-items-center justify-content-start gap-4">
                     <h2 className="primaryHeading">welcome to</h2>
@@ -43,12 +43,12 @@ const Welcome = () => {
           </Row>
 
           <Row className="justify-content-between">
-          <Col md={8}>
+          <Col sm={6} lg={8}>
               <div>
               
                 <div className="welcome_counts_container">
                     <div>
-                      <div className="d-flex align-items-center gap-1">
+                      <div className="d-flex align-items-lg-center gap-1 align-items-sm-start">
                         <h4 className="secondary_heading">800</h4>
                         <span className="plusIconImg">
                           <img src={plusLogo} alt="plus"></img>
@@ -58,7 +58,7 @@ const Welcome = () => {
                     </div>
 
                     <div>
-                      <div className="d-flex align-items-center gap-1">
+                      <div className="d-flex align-items-lg-center gap-1 align-items-sm-start">
                         <span className="dollarIconImg">
                           <img src={dollarLogo} alt="plus"></img>
                         </span>
@@ -68,7 +68,7 @@ const Welcome = () => {
                     </div>
 
                     <div>
-                      <div className="d-flex align-items-center gap-1">
+                      <div className="d-flex align-items-lg-center gap-1 align-items-sm-start">
                         <h4 className="secondary_heading">500</h4>
                         <span className="plusIconImg">
                           <img src={plusLogo} alt="plus"></img>
@@ -93,7 +93,7 @@ const Welcome = () => {
               </div>
             </Col>
 
-            <Col md={3}>
+            <Col xs={5} sm={5} lg={3} className='mx-auto'>
               <div className="welcome_right_img_box">
                 <div className="welocme_right_img">
                   <img src={welcomeImg02} alt="sideImg" className="img-fluid"></img>

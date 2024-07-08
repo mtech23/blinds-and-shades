@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Link } from "react-router-dom";
-import { facebookIcon, twitterIcon, instragramIcon, linkedinIcon, phoneIcon, mailIcon, locationIcon } from "../../../asserts/images";
+import { facebookIcon, twitterIcon, instragramIcon, linkedinIcon, phoneIcon, mailIcon, locationIcon, paymentMethodsImg } from "../../../asserts/images";
 
 import { footerLogo } from "../../../asserts/images";
 
@@ -12,10 +12,11 @@ import "./style.css"
 const Footer = () => {
 
   return (
-    <footer>
+    <>
+      <footer>
       <Container>
         <Row>
-          <Col md={4}>
+          <Col  sm={4} lg={4}>
             <div>
 
               <div className="footerLogoImg">
@@ -49,7 +50,7 @@ const Footer = () => {
             </div>
           </Col>
 
-          <Col md={2}>
+          <Col xs={12} sm={2} lg={2}>
             <div className="pt-1">
 
              <h6 className="footer_links_heading">
@@ -66,7 +67,7 @@ const Footer = () => {
             </div>
           </Col>
 
-          <Col md={2}>
+          <Col xs={12} sm={2} lg={2}>
             <div className="pt-1">
 
              <h6 className="footer_links_heading">
@@ -84,7 +85,7 @@ const Footer = () => {
             </div>
           </Col>
 
-          <Col xl={2} lg={3}>
+          <Col xs={12} sm={4} xl={2} lg={3}>
             <div className="pt-1">
 
              <h6 className="footer_links_heading">
@@ -126,6 +127,25 @@ const Footer = () => {
         </Row>
       </Container>
     </footer>
+
+    <Container className="py-1">
+      <Row className="align-items-center">
+        <Col xs={12} sm={6} lg={6}>
+          <div>
+              <p className="footerbar_para m-0">Copyright 2024 All right reserved. <span className="footerBar_bold_text fw-bold">BLINDSNSHADES LLC</span></p>
+          </div>
+        </Col>
+
+        <Col xs={12} sm={6} lg={6}>
+          <div className="payments_img text-right">
+            <img src={paymentMethodsImg} alt="payments"></img>
+          </div>
+        </Col>
+      </Row>
+    </Container>
+
+
+    </>
   );
 };
 
