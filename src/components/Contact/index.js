@@ -6,10 +6,10 @@ import "./style.css";
 import { heroHeadingFlowerImg, anonymous } from '../../asserts/images';
 import CustomButton from '../CustomButton';
 
-const Contact = () => {
+const Contact = (props) => {
   return (
     <>
-        <section className='contact_us_section'>
+        <section className={`contact_us_section ${props.className}`}>
             <Container>
                <div className='contact_form_bk'>
                <Row>

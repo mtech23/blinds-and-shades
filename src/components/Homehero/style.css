@@ -39,11 +39,12 @@
 .hero_section_imgs{
     width: 100%;
     overflow: hidden;
+    /* position: relative; */
 }
 
 .sunFlowerImg{
     position: absolute;
-    top: 0;
+    top: -33px;
     right: 28px;
     z-index: 10;
 }
@@ -66,6 +67,13 @@
 
     .moving_text_further{
         margin-left: 0px !important;
+    }
+
+    .sunFlowerImg{
+        position: absolute;
+        top: -20px;
+        right: 28px;
+        z-index: 10;
     }
 }
 

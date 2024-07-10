@@ -1,20 +1,21 @@
 
 import React from 'react'
 import UserLayout from '../../components/Layout/userlayout'
+import CustomBanner from '../../components/CustomBanner'
+import Contact from '../../components/Contact'
 
-const Contact = () => {
+const ContactPage = () => {
   return (
     <>
     <UserLayout>
 
-      <section>
-          <h2>this is the contact.</h2>
-      </section>
+     <CustomBanner text="contact us"/>
 
+      <Contact className="py-5" />
 
     </UserLayout>
   </>
   )
 }
 
-export default Contact
+export default ContactPage

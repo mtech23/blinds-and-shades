@@ -37,7 +37,10 @@ const Homehero = () => {
             </Row>
           </Container>
 
-
+          <div className='position-relative'>
+            <div className="sunFlowerImg">
+                    <img src={heroHeadingSunImg} alt="sunflower_icon"></img>
+                  </div>
           <div className="hero_section_imgs">
             <Row>
               <Col sm={4} md={4} xs={4} lg={4}>
@@ -61,13 +64,16 @@ const Homehero = () => {
                   <div className='h-100'>
                     <img src={heroSectionImg02} alt="" className="img-fluid h-100"></img>
                   </div>
-                  <div className="sunFlowerImg">
+                  {/* <div className="sunFlowerImg">
                     <img src={heroHeadingSunImg} alt="sunflower_icon"></img>
-                  </div>
+                  </div> */}
                 </div>
               </Col>
             </Row>
           </div>
+          </div>
+
+          
 
 
         </section>

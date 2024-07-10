@@ -30,6 +30,11 @@ body {
   src: url('./asserts/fonts/Jost-Light.ttf');
 }
 
+@font-face {
+  font-family: 'outfit';
+  src: url('./asserts/fonts/Outfit-Regular.ttf');
+}
+
 
 h1, h2, h3, h4, h5, h6{
   font-family: 'RussoOne';

@@ -1,0 +1,12 @@
+
+.product_detail_section{
+    padding: 20px 0px 40px;
+}
+
+.product_single_image img{
+    border-radius: 14px;
+}
+
+.single_thumbnail_img img{
+    height: 20px;
+}

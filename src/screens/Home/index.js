@@ -2,29 +2,30 @@ import React from "react";
 import UserLayout from "../../components/Layout/userlayout";
 import Homehero from "../../components/Homehero";
 import Welcome from "../../components/Welcome";
-import PortfolioMain from "../Portfolio";
 import BestProducts from "../../components/Bestproducts";
 import Gallery from "../../components/gallery";
 import Contact from "../../components/Contact";
 import "./style.css";
+import Portfolio from "../../components/Portfolio";
 
 const Home = () => {
   return (
     <>
       <UserLayout>
+        <Homehero />
 
-          <Homehero/>
+        <Welcome />
 
-          <Welcome/>
+        <Portfolio />
 
-          <PortfolioMain />
+        <BestProducts />
 
-          <BestProducts/>
+        <Gallery />
 
-          <Gallery/>
+        <Contact/>
 
-          <Contact/>
-       
+        {/* <Contact /> */}
+
       </UserLayout>
     </>
   );

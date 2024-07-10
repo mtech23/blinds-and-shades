@@ -6,6 +6,8 @@
     padding: 50px 0px 150px;
 }
 
+
+
 .font_white_color{
     color: #fff !important;
 }
@@ -71,6 +73,25 @@
 @media(max-width: 1024px){
     .portfolioImg img{
         height: 365px;
+    }
+}
+
+@media(max-width: 990px){
+    .actionBtn_under_swiper{
+        width: 100%;
+    }
+
+    .heading_under_swiper {
+        font-size: 14px;
+    }
+    
+    .para_under_swiper {
+        font-size: 9px;
+    }
+    
+    .actionBtn_under_swiper {
+        padding: 10px 6px;
+        /* font-size: 10px; */
     }
 }
 

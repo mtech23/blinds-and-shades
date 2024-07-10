@@ -41,7 +41,28 @@ import customBannerImg01 from "./Rectangle 614.png";
 import customBannerImg02 from "./Rectangle 61355.png";
 import aboutImg01 from "./about01.png";
 import aboutImg02 from "./about02.png";
-import aboutImg03 from "./Group 1171276094.png"
+import aboutImg03 from "./Group 1171276094.png";
+import blogImg01 from "./blog01.png";
+import blogImg02 from "./blog02.png";
+import blogImg03 from "./blog03.png";
+import blogImg04 from "./blog04.png";
+import blogImg05 from "./blog05.png";
+import blogImg06 from "./blog06.png";
+import blogImg07 from "./blog07.png";
+import blogImg08 from "./blog08.png";
+import blogImg09 from "./blog09.png";
+import productDetailImg from "./productDetail.png";
+import productDetailImg02 from "./productDetailImg02.png";
+import productDetailImg03 from "./productDetailImg03.png";
+import productDetailImg04 from "./productDetailImg04.png";
+import productDetailImg05 from "./productDetailImg05.png";
+import productDetailImg06 from "./productDetailImg06.png";
+import thumbnailImg01 from "./pordimg01.png";
+import thumbnailImg02 from "./pordimg02.png";
+import thumbnailImg03 from "./pordimg03.png";
+import thumbnailImg04 from "./pordimg04.png";
+import thumbnailImg05 from "./pordimg05.png";
+import thumbnailImg06 from "./pordimg06.png";
 
 export {
     mainLogo,
@@ -86,5 +107,26 @@ export {
     customBannerImg02,
     aboutImg01,
     aboutImg02,
-    aboutImg03
+    aboutImg03,
+    blogImg01,
+    blogImg02,
+    blogImg03,
+    blogImg04,
+    blogImg05,
+    blogImg06,
+    blogImg07,
+    blogImg08,
+    blogImg09,
+    productDetailImg,
+    thumbnailImg01,
+    thumbnailImg02,
+    thumbnailImg03,
+    thumbnailImg04,
+    thumbnailImg05,
+    thumbnailImg06,
+    productDetailImg02,
+    productDetailImg03,
+    productDetailImg04,
+    productDetailImg05,
+    productDetailImg06
 }

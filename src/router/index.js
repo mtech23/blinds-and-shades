@@ -8,6 +8,7 @@ import Blogs from "../screens/Blogs";
 import Shop from "../screens/Shop";
 import Contact from "../screens/Contact";
 import Register from "../screens/Register";
+import ProductDetail from "../screens/ProductDetail";
 
 const Router = () => {
   return (
@@ -21,6 +22,7 @@ const Router = () => {
         <Route path="/shop" element={<Shop/>} />
         <Route path="/contact-us" element={<Contact/>} />
         <Route path="/registration" element={<Register/>} />
+        <Route path="/product-detail" element={<ProductDetail/>} />
       </Routes>
     </BrowserRouter>
   );
