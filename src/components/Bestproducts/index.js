@@ -11,10 +11,10 @@ import {
 } from "../../asserts/images";
 import CustomButton from "../../components/CustomButton";
 import "./style.css";
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const BestProducts = (props) => {
-//   const navigate = useNavigate();
+  const navigate = useNavigate();
   return (
     <>
       <section className="best_products_section">
@@ -87,7 +87,7 @@ const BestProducts = (props) => {
                     type="button"
                     className="w-100 px-2"
                     text="View Product"
-                    // onClick={() => navigate("/product-detail")}
+                    onClick={() => navigate("/product-detail")}
                   />
                 </div>
               </div>
@@ -126,7 +126,7 @@ const BestProducts = (props) => {
                     type="button"
                     className="w-100 px-2"
                     text="View Product"
-                    // onClick={() => navigate("/product-detail")}
+                    onClick={() => navigate("/product-detail")}
                   />
                 </div>
               </div>
@@ -165,7 +165,7 @@ const BestProducts = (props) => {
                     type="button"
                     className="w-100 px-2"
                     text="View Product"
-                    // onClick={() => navigate("/product-detail")}
+                    onClick={() => navigate("/product-detail")}
                   />
                 </div>
               </div>
@@ -204,7 +204,7 @@ const BestProducts = (props) => {
                     type="button"
                     className="w-100 px-2"
                     text="View Product"
-                    // onClick={() => navigate("/product-detail")}
+                    onClick={() => navigate("/product-detail")}
                   />
                 </div>
               </div>

@@ -63,6 +63,30 @@ import thumbnailImg03 from "./pordimg03.png";
 import thumbnailImg04 from "./pordimg04.png";
 import thumbnailImg05 from "./pordimg05.png";
 import thumbnailImg06 from "./pordimg06.png";
+import circleImg from "./circle-img.png";
+import heartwithquestionMart from "./heart_with_ex.png";
+import truck from "./truck.png";
+import productColorSelectionImg01 from "./productColorImg01.png";
+import productColorSelectionImg02 from "./productColorImg02.png";
+import productColorSelectionImg03 from "./productColorImg03.png";
+import productColorSelectionImg04 from "./productColorImg04.png";
+import productColorSelectionImg05 from "./productColorImg05.png";
+import productColorSelectionImg06 from "./productColorImg06.png";
+import productColorSelectionImg07 from "./productColorImg07.png";
+import productColorSelectionImg08 from "./productColorImg08.png";
+import productColorSelectionImg09 from "./productColorImg09.png";
+import productColorSelectionImg10 from "./productColorImg10.png";
+import insideShade from "./inside.png";
+import outsideShade from "./outside.png";
+import measure01 from "./measure01.png";
+import measure02 from "./measure02.png";
+import scale01 from "./scale01.png";
+import scale02 from "./scale02.png";
+import lift01 from "./life01.png";
+import lift02 from "./life02.png";
+import upgradeImg from "./upgrade01.png";
+import paypal from "./paypal.png";
+
 
 export {
     mainLogo,
@@ -128,5 +152,28 @@ export {
     productDetailImg03,
     productDetailImg04,
     productDetailImg05,
-    productDetailImg06
+    productDetailImg06,
+    circleImg,
+    heartwithquestionMart,
+    truck,
+    productColorSelectionImg01,
+    productColorSelectionImg02,
+    productColorSelectionImg03,
+    productColorSelectionImg04,
+    productColorSelectionImg05,
+    productColorSelectionImg06,
+    productColorSelectionImg07,
+    productColorSelectionImg08,
+    productColorSelectionImg09,
+    productColorSelectionImg10,
+    insideShade,
+    outsideShade,
+    measure01,
+    measure02,
+    scale01,
+    scale02,
+    lift01,
+    lift02,
+    upgradeImg,
+    paypal
 }

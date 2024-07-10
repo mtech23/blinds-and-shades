@@ -21,6 +21,16 @@ body {
 }
 
 @font-face {
+  font-family: 'poppinsbold';
+  src: url('./asserts/fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'poppinsSemibold';
+  src: url('./asserts/fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face {
   font-family: 'RussoOne';
   src: url('./asserts/fonts/RussoOne-Regular.ttf');
 }
@@ -33,6 +43,26 @@ body {
 @font-face {
   font-family: 'outfit';
   src: url('./asserts/fonts/Outfit-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./asserts/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'MontserratMedium';
+  src: url('./asserts/fonts/Montserrat-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'MontserratBold';
+  src: url('./asserts/fonts/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'MontserratExtraBold';
+  src: url('./asserts/fonts/Montserrat-ExtraBold.ttf');
 }
 
 
