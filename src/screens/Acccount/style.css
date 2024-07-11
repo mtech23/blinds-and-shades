@@ -1,0 +1,270 @@
+
+.account_section{
+    padding: 40px 0px;
+}
+
+.single_cart_product{
+  
+    border-bottom: 1px solid #cbcbcb;
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.all_cart_items{
+    border-top: 1px solid #cbcbcb;
+}
+
+.blueHeading{
+    color: #1B2E51 !important;
+}
+
+.cart_left_part{
+    display: flex;
+    gap: 16px;
+}
+
+.cart_product_title{
+    text-transform: uppercase;
+    color: #1B2E51;
+    margin: 0px;
+}
+
+.cart_product_para{
+    width: 650px;
+    text-align: justify;
+    line-height: 26px !important;
+}
+
+.subtraction_btn, .addition_btn{
+    display: flex;
+    background-color: #1B2E51;
+    border: none;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    width: 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.cart_quantity_actionBtns{
+    display: flex;
+    gap: 5px;
+}
+
+.quantity_number{
+    background-color: #E6E6E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.cart_quantity_box{
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.quantity_text{
+    font-family: 'poppinsRegular';
+    color: #767676;
+    font-size: 18px;
+}
+
+.cart_product_price{
+    font-family: 'RussoOne';
+    font-size: 18px;
+}
+
+.cart_product_price_main {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-top: 16px;
+}
+
+.request_quote_actionBtn{
+    font-family: 'poppinsLight';
+    background-color: #1B2E51;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    letter-spacing: 1px;
+}
+
+.cart_product_Img img{
+    width: 190px;
+}
+
+.cart_item_delete_btn{
+    border: none;
+    background-color: #E16565;
+    height: 100%;
+    width: 45px;
+    border-radius: 10px;
+}
+
+.cart_item_delete_btn img{
+    width: 14px;
+}
+
+.account_tab_btn {
+    font-family: 'poppinsMedium';
+    background-color: transparent;
+    border: 1px solid #000;
+    width: 180px;
+    padding: 8px 10px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.account_tab_btn:focus{
+    background-color: #F27D04;
+    box-shadow: none;
+    color: #fff;
+    border: 1px solid #F27D04;
+}
+
+
+.all_account_tab_btns {
+    padding: 20px 0px 34px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_account_section{
+    padding: 50px 0px;
+}
+
+.user_logout_btn{
+    background-color: #1B2E51 !important;
+    color: #fff !important;
+}
+
+.user_bold_text{
+    color: #1B2E51;
+    font-family: 'poppinsSemibold';
+}
+
+@media(max-width: 1200px){
+    .cart_product_para {
+        width: 570px;
+    }
+
+    .account_tab_btn{
+        width: 165px;
+    }
+}
+
+@media(max-width: 990px){
+    .cart_product_para {
+        width: auto;
+        line-height: 20px !important;
+    }
+
+    .all_account_tab_btns{
+        gap: 6px;
+    }
+
+    .account_tab_btn{
+        font-size: 12px;
+    }
+
+    .cart_product_Img img {
+        width: 150px;
+    }
+
+    .single_cart_product{
+        flex-wrap: wrap;
+    }
+
+    .cart_right_part{
+        width: 100%;
+        margin: 6px 0px;
+    }
+
+    .cart_item_delete_btn{
+        width: 100%;
+        padding: 4px 0px;
+    }
+
+    .cart_item_delete_btn img{
+        width: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cart_product_para {
+      margin-bottom: 5px;
+    }
+
+    .all_account_tab_btns{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .account_tab_btn{
+        margin-bottom: 6px;
+    }
+
+    .cart_product_Img img {
+        width: 100px;
+    }
+
+    .cart_product_title{
+        font-size: 16px;
+    }
+
+    .cart_product_price{
+        font-size: 14px;
+    }
+
+    .request_quote_actionBtn{
+        font-size: 8px;
+    }
+
+    .quantity_text{
+        font-size: 14px;
+    }
+
+    .subtraction_btn, .addition_btn{
+        height: 22px;
+        width: 22px;
+        font-size: 13px;
+    }
+}
+
+@media(max-width:480px){
+    .cart_product_price_main{
+        gap: 8px;
+        flex-wrap: wrap;
+        padding-top: 10px;
+    }
+}
+
+@media(max-width: 425px){
+    .cart_product_Img img {
+        width: 80px;
+    }
+    .cart_product_para {
+        line-height: 15px !important;
+    }
+}
+
+@media(max-width: 350px){
+   .cart_left_part{
+    flex-wrap: wrap;
+   }
+}

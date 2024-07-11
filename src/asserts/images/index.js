@@ -86,6 +86,14 @@ import lift01 from "./life01.png";
 import lift02 from "./life02.png";
 import upgradeImg from "./upgrade01.png";
 import paypal from "./paypal.png";
+import warrantyIconImg from "./icon_warranty.png";
+import LikeImg01 from "./likeImg01.png";
+import LikeImg02 from "./likeImg02.png";
+import LikeImg03 from "./likeImg03.png";
+import LikeImg04 from "./likeImg04.png";
+import LikeImg05 from "./likeImg05.png";
+import LikeImg06 from "./likeImg06.png";
+import trash from "./trash.png";
 
 
 export {
@@ -175,5 +183,13 @@ export {
     lift01,
     lift02,
     upgradeImg,
-    paypal
+    paypal,
+    warrantyIconImg,
+    LikeImg01,
+    LikeImg02,
+    LikeImg03,
+    LikeImg04,
+    LikeImg05,
+    LikeImg06,
+    trash
 }

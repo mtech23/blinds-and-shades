@@ -51,7 +51,7 @@ const Header = () => {
                 type="button"
                 className=""
                 text="login"
-                onClick={() => navigate("/about")}
+                onClick={() => navigate("/login")}
               />
             </div>
           </Navbar.Collapse>

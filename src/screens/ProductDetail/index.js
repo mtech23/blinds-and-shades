@@ -6,10 +6,12 @@ import Col from 'react-bootstrap/Col';
 import CustomBanner from '../../components/CustomBanner';
 import UserLayout from '../../components/Layout/userlayout';
 import "./style.css";
-import {productDetailImg, productDetailImg02, productDetailImg03, productDetailImg04, productDetailImg05, productDetailImg06, circleImg, heartwithquestionMart, truck, productColorSelectionImg01, productColorSelectionImg02, productColorSelectionImg03, productColorSelectionImg04, productColorSelectionImg05, productColorSelectionImg06, productColorSelectionImg07, productColorSelectionImg08, productColorSelectionImg09, productColorSelectionImg10, insideShade, outsideShade, measure01, scale01, measure02, scale02, lift01, lift02, upgradeImg, paypal } from '../../asserts/images';
+import {productDetailImg, productDetailImg02, productDetailImg03, productDetailImg04, productDetailImg05, productDetailImg06, circleImg, heartwithquestionMart, truck, productColorSelectionImg01, productColorSelectionImg02, productColorSelectionImg03, productColorSelectionImg04, productColorSelectionImg05, productColorSelectionImg06, productColorSelectionImg07, productColorSelectionImg08, productColorSelectionImg09, productColorSelectionImg10, insideShade, outsideShade, measure01, scale01, measure02, scale02, lift01, lift02, upgradeImg, paypal, warrantyIconImg, LikeImg01, LikeImg02, LikeImg03, LikeImg04, LikeImg05, LikeImg06 } from '../../asserts/images';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Accordion from 'react-bootstrap/Accordion';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
 
 
 const ProductDetail = () => {
@@ -27,7 +29,7 @@ const ProductDetail = () => {
             <section className='product_detail_section'>
                 <Container>
                     <Row>
-                        <Col xs={12} sm={10} lg={6}>
+                        <Col xs={12} sm={10} lg={6} className='mx-auto'>
                             <div className='main_product_images'>
                                 <div className='product_single_image'>
                                     <img src={selectedImage} alt='product' className='img-fluid'></img>
@@ -81,14 +83,14 @@ const ProductDetail = () => {
                                     </div>
 
                                     <div>
-                                        <div className='d-flex gap-2 align-items-baseline'>
+                                        <div className='d-flex gap-2 align-items-baseline '>
                                             <h6 className='kid_friendly_title'>kid friendly</h6>
                                             <div className='heart_with_questionmark'>
                                                 <img src={heartwithquestionMart} alt='heart'></img>
                                             </div>
                                         </div>
 
-                                        <div className='d-flex gap-2 align-items-baseline'>
+                                        <div className='d-flex gap-2 align-items-center align-items-sm-baseline align-items-lg-baseline'>
                                             <div className='truck_img'>
                                                 <img src={truck} alt='truck'></img>
                                             </div>
@@ -105,7 +107,7 @@ const ProductDetail = () => {
                                     <Accordion.Header>Selected Color: Perfect White</Accordion.Header>
                                     <Accordion.Body>
 
-                                        <div className='d-flex gap-2 align-items-end'>
+                                        <div className='d-flex gap-2 align-items-end align-items-lg-center flex-wrap flex-sm-nowrap flex-lg-nowrap'>
                                             <span className='tip_circle'>TIP</span>
                                             <span className='free_sample_text'>For a true color comparison, please order a free sample</span>
                                         </div>
@@ -301,19 +303,19 @@ const ProductDetail = () => {
                                        </div>
 
                                        <div className='window_first_box'>
-                                            <div className='d-flex justify-content-between heart_with_questionmark align-items-center pb-3'>
+                                            <div className='d-flex justify-content-between heart_with_questionmark align-items-center pb-3 flex-wrap gap-2'>
                                                 <h6 className='kid_friendly_title mound_type text-capitalize'>Enter Measurements</h6>
                                                 <button className='help_me_measure'>Help Me Measure</button>
                                             </div>
 
-                                            <div className='d-flex gap-2 align-items-end'>
+                                            <div className='d-flex gap-2 align-items-end flex-wrap flex-sm-nowrap flex-lg-nowrap'>
                                                 <span className='tip_circle'>TIP</span>
                                                 <span className='free_sample_text'>Always reference <Link>product specifications</Link>  below before measuring.</span>
                                             </div>
 
-                                            <div className='d-flex gap-4 py-3'>
+                                            <div className='d-flex gap-4 py-3 flex-wrap flex-sm-nowrap flex-lg-nowrap'>
                                                 <div>
-                                                    <img src={measure01} alt='measure'></img>
+                                                    <img src={measure01} alt='measure' className='img-fluid'></img>
                                                 </div>
                                                 <div className='pt-2'>
                                                     <span className='free_sample_text block'>Width (inches)</span>
@@ -335,14 +337,14 @@ const ProductDetail = () => {
                                                     </div>
                                                 </div>
                                                 <div>
-                                                    <img src={scale01} alt='scale'></img>
+                                                    <img src={scale01} alt='scale' className='img-fluid'></img>
                                                 </div>
                                             </div>
 
 
-                                            <div className='d-flex gap-4 py-3'>
+                                            <div className='d-flex gap-4 py-3 flex-wrap flex-sm-nowrap flex-lg-nowrap'>
                                                 <div>
-                                                    <img src={measure02} alt='measure'></img>
+                                                    <img src={measure02} alt='measure' className='img-fluid'></img>
                                                 </div>
                                                 <div className='pt-2'>
                                                     <span className='free_sample_text block'>Width (inches)</span>
@@ -364,7 +366,7 @@ const ProductDetail = () => {
                                                     </div>
                                                 </div>
                                                 <div>
-                                                    <img src={scale02} alt='scale'></img>
+                                                    <img src={scale02} alt='scale' className='img-fluid'></img>
                                                 </div>
                                             </div>
 
@@ -422,7 +424,7 @@ const ProductDetail = () => {
                                                 <h6 className='kid_friendly_title mound_type text-capitalize'>Lift Style</h6>
                                             </div>
 
-                                            <div className='d-flex gap-4 pl-3'>
+                                            <div className='d-flex gap-4 pl-3 flex-wrap flex-sm-nowrap flex-lg-nowrap '>
                                                 <div className='window_size_img'>
                                                     <img src={lift01} alt='inside'></img>
 
@@ -566,7 +568,7 @@ const ProductDetail = () => {
                                         </div>
 
                                         <div className='quantity_quote'>
-                                            <div className='d-flex justify-content-between'>
+                                            <div className='qty_with_selection'>
                                                 <div className='d-flex align-items-center gap-2'>
                                                 <span className='qty_text'>Qty</span>
                                                 <select class="form-select qty_text_selection" aria-label="Default select example">
@@ -590,7 +592,288 @@ const ProductDetail = () => {
                                         </div>
                                     </div>
 
+                                    <div className='main_warranty_box'>
+
+                                        <div className='warranty_box_head'>
+                                            <div className='warranty_icon_img'>
+                                                <img src={warrantyIconImg} alt='icon'></img>
+                                            </div>
+
+                                            <div>
+                                                <h6 class="kid_friendly_title">Warranty Options </h6>
+                                            </div>
+
+                                            <div>
+                                                <Link className='coupon_terms'>Details</Link>
+                                            </div>
+                                        </div>
+
+                                        <div className='single_warranty_info'>
+                                            <div>
+                                                <span class="window_size_label">3-Year Limited Warranty</span>
+                                            </div>
+
+                                            <div>
+                                                <span class="free_text">FREE</span>
+                                            </div>
+                                        </div>
+
+                                        <div className='single_warranty_info'>
+                                            <div>
+                                                <span class="window_size_label">5-Year Limited Warranty</span>
+                                            </div>
+
+                                            <div>
+                                                <span class="free_text">$0</span>
+                                            </div>
+                                        </div>
+
+                                        <div className='single_warranty_info'>
+                                            <div>
+                                                <span class="window_size_label">5-Year Unlimited Warranty</span>
+                                            </div>
+
+                                            <div>
+                                                <span class="free_text">$0</span>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
                             </div>
+                        </Col>
+                    </Row>
+
+                    <Row>
+                        <Col lg={12}>
+                            <div className='accordian_below_product_details'>
+                            <Accordion>
+                                <Accordion.Item eventKey="0">
+                                    <Accordion.Header>Product Information</Accordion.Header>
+                                    <Accordion.Body>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                    culpa qui officia deserunt mollit anim id est laborum.
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                                <Accordion.Item eventKey="1">
+                                    <Accordion.Header>Specifications</Accordion.Header>
+                                    <Accordion.Body>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                    culpa qui officia deserunt mollit anim id est laborum.
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                                <Accordion.Item eventKey="2">
+                                    <Accordion.Header>Measure and Install</Accordion.Header>
+                                    <Accordion.Body>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                    culpa qui officia deserunt mollit anim id est laborum.
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                                <Accordion.Item eventKey="3">
+                                    <Accordion.Header>Shipping & Production</Accordion.Header>
+                                    <Accordion.Body>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                    culpa qui officia deserunt mollit anim id est laborum.
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                                <Accordion.Item eventKey="4">
+                                    <Accordion.Header>Reviews</Accordion.Header>
+                                    <Accordion.Body>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                    culpa qui officia deserunt mollit anim id est laborum.
+                                    </Accordion.Body>
+                                </Accordion.Item>
+                                </Accordion>
+                            </div>
+                        </Col>
+                    </Row>
+
+                    <Row>
+                        <Col lg={12}>
+                                <div>
+
+                                    <div>
+                                        <h4 class="product_detail_title like_title">You May Also Like</h4>
+                                    </div>
+
+                                    <div>
+                                        <Swiper
+                                            slidesPerView={1}
+                                            spaceBetween={20}
+                                            loop={true}
+                                            pagination={{
+                                            clickable: true,
+                                            }}
+                                            autoplay={{
+                                                delay: 2000,
+                                                disableOnInteraction: false,
+                                            }}
+                                            breakpoints={{
+                                               
+                                                300: {
+                                                    slidesPerView: 2,
+                                                    spaceBetween: 20,
+                                                },
+                                                425: {
+                                                    slidesPerView: 3,
+                                                    spaceBetween: 20,
+                                                },
+                                                600: {
+                                                    slidesPerView: 4,
+                                                    spaceBetween: 20,
+                                                },
+                                                990: {
+                                                    slidesPerView: 6,
+                                                    spaceBetween: 20,
+                                                },
+                                                }}
+                                            modules={[Autoplay]}
+                                            className="mySwiper"
+                                        >
+                                            <SwiperSlide>
+                                                <div>
+                                                    <div>
+                                                        <img src={LikeImg01} alt='likeImg' className='img-fluid'></img>
+                                                    </div>
+
+                                                    <div>
+                                                        <h6 className='you_may_like_product_title'>Cordless Light Filtering Cellular Shades</h6>
+                                                        {/* <h6 className='you_may_like_product_title02'>Cellular Shades</h6> */}
+                                                        <span className='like_products_discount'>45% Off $399+</span>
+                                                    </div>
+                                                </div>
+                                            </SwiperSlide>
+
+                                            <SwiperSlide>
+                                                <div>
+                                                    <div>
+                                                        <img src={LikeImg02} alt='likeImg' className='img-fluid'></img>
+                                                    </div>
+
+                                                    <div>
+                                                        <h6 className='you_may_like_product_title'>Cordless Blackout Cellular Shades</h6>
+                                                        {/* <h6 className='you_may_like_product_title02'>Cellular Shades</h6> */}
+                                                        <span className='like_products_discount'>45% Off $399+</span>
+                                                    </div>
+                                                </div>
+                                            </SwiperSlide>
+                                            <SwiperSlide>
+                                                <div>
+                                                    <div>
+                                                        <img src={LikeImg03} alt='likeImg' className='img-fluid'></img>
+                                                    </div>
+
+                                                    <div>
+                                                        <h6 className='you_may_like_product_title'>Cordless Light Filtering Top Down Bottom Up Shades</h6>
+                                                        {/* <h6 className='you_may_like_product_title02'>Top Down Bottom Up Shades</h6> */}
+                                                    </div>
+                                                </div>
+                                            </SwiperSlide>
+                                            <SwiperSlide>
+                                                <div>
+                                                    <div>
+                                                        <img src={LikeImg04} alt='likeImg' className='img-fluid'></img>
+                                                    </div>
+
+                                                    <div>
+                                                        <h6 className='you_may_like_product_title'>Cordless Blackout Top Down Bottom Up Shades</h6>
+                                                        {/* <h6 className='you_may_like_product_title02'>Top Down Bottom Up Shades</h6> */}
+                                                        <span className='like_products_discount'>45% Off $399+</span>
+                                                    </div>      
+                                                </div>
+                                            </SwiperSlide>
+                                            <SwiperSlide>
+                                                <div>
+                                                    <div>
+                                                        <img src={LikeImg05} alt='likeImg' className='img-fluid'></img>
+                                                    </div>
+                                                    
+                                                    <div>
+                                                        <h6 className='you_may_like_product_title'>Select Light Filtering Cellulars</h6>
+                                                        {/* <h6 className='you_may_like_product_title02'>Top Down Bottom Up Shades</h6> */}
+                                                    </div>
+                                                </div>
+                                            </SwiperSlide>
+                                            <SwiperSlide>
+                                                <div>
+                                                    <div>
+                                                        <img src={LikeImg06} alt='likeImg' className='img-fluid'></img>
+                                                    </div>
+
+                                                    <div>
+                                                        <h6 className='you_may_like_product_title'>Select Blackout Cellulars</h6>
+                                                        {/* <h6 className='you_may_like_product_title02'>Top Down Bottom Up Shades</h6> */}
+                                                    </div>
+                                                </div>
+                                            </SwiperSlide>
+                                            <SwiperSlide>
+                                                <div>
+                                                    <div>
+                                                        <img src={LikeImg01} alt='likeImg' className='img-fluid'></img>
+                                                    </div>
+
+                                                    <div>
+                                                        <h6 className='you_may_like_product_title'>Cordless Light Filtering Cellular Shades</h6>
+                                                        {/* <h6 className='you_may_like_product_title02'>Cellular Shades</h6> */}
+                                                        <span className='like_products_discount'>45% Off $399+</span>
+                                                    </div>
+                                                </div>
+                                            </SwiperSlide>
+
+                                            <SwiperSlide>
+                                                <div>
+                                                    <div>
+                                                        <img src={LikeImg02} alt='likeImg' className='img-fluid'></img>
+                                                    </div>
+
+                                                    <div>
+                                                        <h6 className='you_may_like_product_title'>Cordless Blackout Cellular Shades</h6>
+                                                        {/* <h6 className='you_may_like_product_title02'>Cellular Shades</h6> */}
+                                                    </div>
+                                                </div>
+                                            </SwiperSlide>
+                                            <SwiperSlide>
+                                                <div>
+                                                    <div>
+                                                        <img src={LikeImg03} alt='likeImg' className='img-fluid'></img>
+                                                    </div>
+
+                                                    <div>
+                                                        <h6 className='you_may_like_product_title'>Cordless Light Filtering Top Down Bottom Up Shades</h6>
+                                                        {/* <h6 className='you_may_like_product_title02'>Top Down Bottom Up Shades</h6> */}
+                                                    </div>
+                                                </div>
+                                            </SwiperSlide>
+                                        </Swiper>
+                                    </div>
+
+                                </div>
                         </Col>
                     </Row>
                 </Container>

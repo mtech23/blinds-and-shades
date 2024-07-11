@@ -253,6 +253,7 @@
     border-radius: 8px;
     background-color: #8ed1e675;
     margin-bottom: 10px;
+    flex-wrap: wrap;
 }
 
 .measuring_protection{
@@ -377,4 +378,240 @@
 
 .paypalImg{
     width: 45px;
+}
+
+.main_warranty_box{
+    width: 40%;
+    margin: 12px 0px; 
+}
+
+.warranty_icon_img{
+    width: 16px;
+}
+
+.warranty_box_head{
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    padding-bottom: 6px;
+}
+
+.single_warranty_info{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 30px;
+    padding: 4px 0px;
+}
+
+.qty_with_selection{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.accordian_below_product_details{
+
+    .accordion-item{
+        border-bottom: 1px solid #dbdbdb !important;
+        margin-bottom: 12px;
+        border: none;
+        border-radius: 0% !important;
+    }
+
+    .accordion-item:last-child{
+        border: none !important;
+    }
+
+    .accordion-button{
+    background-color: transparent !important;
+    font-family: 'MontserratMedium';
+    color: #1E3B6F;
+    font-size: 20px;
+}
+
+    .accordion-button:not(.collapsed){
+        box-shadow: none !important;
+    }
+    
+    .accordion-button:focus{
+        box-shadow: none !important;
+    }
+   
+}
+
+.like_title{
+    color: #1B2E51 !important;
+    font-size: 24px !important;
+}
+
+.you_may_like_product_title{
+    font-family: 'MontserratBold';
+    font-size: 15px;
+    line-height: 22px;
+    padding-top: 10px;
+    color: #000;
+    margin: 0px;
+}
+
+.like_products_discount{
+    color: #E00848;
+    font-family: 'MontserratMedium';
+    font-size: 12px;
+}
+
+/* .you_may_like_product_title02{
+    font-family: 'MontserratBold';
+    font-size: 14px;
+    padding-top: 3px;
+    color: #000;
+    line-height: 20px;
+} */
+
+@media(max-width: 1400px){
+    .single_thumbnail_img{
+        height: 80px;
+    }
+
+    .qty_with_selection{
+        gap: 10px;
+    }
+
+    .coupon_with_payment{
+        gap: 10px;
+    }
+
+    .quantity_quote{
+        width: 50%;
+    }
+
+    .main_warranty_box{
+        width: 45%;
+    }
+
+    
+}
+
+@media(max-width: 1200px){
+    .single_thumbnail_img{
+        height: 70px;
+    }
+
+    .free_sample_text{
+        font-size: 12px;
+    }
+
+    .quantity_quote{
+        width: 42%;
+    }
+
+    .request_actionBtn{
+        font-size: 12px;
+    }
+
+    .coupon_with_payment{
+        gap: 5px;
+    }
+
+    .main_warranty_box{
+        width: 50%;
+    }
+    .you_may_like_product_title{
+        font-size: 14px;
+    }
+}
+
+
+@media(max-width: 990px){
+    .single_thumbnail_img{
+        height: 80px;
+    }
+
+    .coupon_with_payment{
+        gap: 10px;
+    }
+
+    .coupon_box{
+        width: 50%;
+    }
+
+    .quantity_quote{
+        width: 50%;
+    }
+
+    .main_warranty_box {
+        width: 35%;
+    }
+}
+
+@media(max-width: 768px){
+    .single_thumbnail_img {
+        height: 60px;
+    }
+
+    .main_warranty_box {
+        width: 45%;
+    }
+}
+
+@media(max-width: 575px){
+    .thumbnail-container{
+        overflow-y: scroll;
+        gap: 8px;
+    }
+
+    .single_thumbnail_img {
+        height: 70px;
+    }
+
+    .coupon_with_payment {
+        flex-wrap: wrap;
+    }
+
+    .coupon_box{
+        width: 100%;
+    }
+
+    .quantity_quote{
+        width: 100%;
+    }
+
+    .main_warranty_box{
+        width: 100%;
+    }
+
+    .warranty_box_head{
+        justify-content: center;
+    }
+
+    .single_warranty_info{
+        justify-content: center;
+    }
+}
+
+@media(max-width: 425px){
+    .window_size_img img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .you_may_like_product_title {
+        font-size: 12px;
+    }
+
+    .product_detail_accordian {
+        .accordion-button {
+            font-size: 14px;
+        }
+    }
+
+    .accordian_below_product_details {
+        .accordion-button {
+            background-color: transparent !important;
+            font-family: 'MontserratMedium';
+            color: #1E3B6F;
+            font-size: 14px;
+        }
+    }
 }
