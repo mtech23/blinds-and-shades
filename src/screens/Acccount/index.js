@@ -11,7 +11,7 @@ import CartProducts from '../../components/CartProducts';
 
 const Account = () => {
 
-    const [activeSection, setActiveSection] = useState('A');
+    const [activeSection, setActiveSection] = useState('Account');
 
     const handleToggleSection = (section) => {
         setActiveSection(section);
@@ -33,19 +33,14 @@ const Account = () => {
                                   </div>
 
                                   <div className='all_account_tab_btns'>
-                                    <button className='account_tab_btn' onClick={() => handleToggleSection('A')}>My Account</button>
+                                    <button className={`account_tab_btn ${activeSection === "Account" ? "actinTabBtn" : "" }`} onClick={() => handleToggleSection('Account')}>My Account</button>
                                     <button className='account_tab_btn'>Profile</button>
                                     <button className='account_tab_btn'>Shipping Details</button>
                                     <button className='account_tab_btn'>Wishlist</button>
-                                    <button className='account_tab_btn' onClick={() => handleToggleSection('B')}>Shopping cart</button>
+                                    <button className={`account_tab_btn ${activeSection === "ShoppingCart" ? "actinTabBtn" : "" }`} onClick={() => handleToggleSection('ShoppingCart')}>Shopping cart</button>
                                   </div>
 
-                                  {activeSection === 'A' ? <UserSection /> : <CartProducts />}
-
-                                  {/* <CartProducts/> */}
-
-                                    {/* <UserSection/> */}
-
+                                  {activeSection === 'Account' ? <UserSection /> : <CartProducts />}
                                     
                             </div>
                         </Col>

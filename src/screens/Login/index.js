@@ -11,7 +11,7 @@ import UserLogin from '../../components/UserLogin';
 
 const Login = () => {
 
-  const [activeSectionPart, setActiveSectionPart] = useState('A');
+  const [activeSectionPart, setActiveSectionPart] = useState('login');
 
   const handleToggleSection = (section) => {
     setActiveSectionPart(section);
@@ -30,18 +30,13 @@ const Login = () => {
                   <div className='main_login'>
 
                     <div className='login_register_actionBtns'>
-                      <button className='user_login_btn' onClick={() => handleToggleSection('A')}>Login</button>
-                      <button className='user_login_btn' onClick={() => handleToggleSection('B')}>Register</button>
+                      <button className={`user_login_btn ${activeSectionPart === "login" ? "buttonActive" : ""}`} onClick={() => handleToggleSection('login')}>Login</button>
+                      <button className={`user_login_btn ${activeSectionPart === "register" ? "buttonActive" : ""}`} onClick={() => handleToggleSection('register')}>Register</button>
                     </div>
 
                     <div className='py-4'>
 
-                    {activeSectionPart === 'A' ? <UserLogin /> : <Registration />}
-
-                      {/* <UserLogin/> */}
-
-                      {/* <Registration/> */}
-                      
+                    {activeSectionPart === 'login' ? <UserLogin /> : <Registration />}
 
                     </div>
 

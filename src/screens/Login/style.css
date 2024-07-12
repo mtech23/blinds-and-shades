@@ -11,6 +11,11 @@
     color: #b9b9b9;
 }
 
+.buttonActive{
+    color: #e8dc3c;
+    border-bottom: 1px solid #e8dc3c;
+}
+
 .user_login_btn:focus{
     color: #e8dc3c;
     border-bottom: 1px solid #e8dc3c;

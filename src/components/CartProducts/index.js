@@ -1,17 +1,8 @@
-import React, {useState} from 'react'
+import React from 'react'
+import CartQuantity from '../CartQuantity';
 import { LikeImg01, trash } from '../../asserts/images';
 
 const CartProducts = () => {
-
-    const [quantity, setQuantity] = useState(4);
-
-    const handleIncrease = () => {
-        setQuantity(prevQuantity => prevQuantity + 1);
-      };
-
-      const handleDecrease = () => {
-        setQuantity(prevQuantity => (prevQuantity > 0 ? prevQuantity - 1 : 0));
-      };
 
   return (
     <>
@@ -28,16 +19,8 @@ const CartProducts = () => {
 
             <p class="welcome_para cart_product_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
 
-            <div className='cart_quantity_box'>
-                <div>
-                    <span className='quantity_text'>Quantity</span>
-                </div>
-               <div className='cart_quantity_actionBtns'>
-                    <button onClick={handleDecrease} className='subtraction_btn'>-</button>
-                    <span className='quantity_number'>{quantity.toString().padStart(2, '0')}</span>
-                    <button onClick={handleIncrease} className='addition_btn'>+</button>
-               </div>
-            </div>
+
+            <CartQuantity/>
 
             <div className='cart_product_price_main'>
                 <div>
@@ -72,16 +55,7 @@ const CartProducts = () => {
 
             <p class="welcome_para cart_product_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
 
-            <div className='cart_quantity_box'>
-                <div>
-                    <span className='quantity_text'>Quantity</span>
-                </div>
-               <div className='cart_quantity_actionBtns'>
-                    <button onClick={handleDecrease} className='subtraction_btn'>-</button>
-                    <span className='quantity_number'>{quantity.toString().padStart(2, '0')}</span>
-                    <button onClick={handleIncrease} className='addition_btn'>+</button>
-               </div>
-            </div>
+            <CartQuantity/>
 
             <div className='cart_product_price_main'>
                 <div>
@@ -116,16 +90,7 @@ const CartProducts = () => {
 
             <p class="welcome_para cart_product_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
 
-            <div className='cart_quantity_box'>
-                <div>
-                    <span className='quantity_text'>Quantity</span>
-                </div>
-               <div className='cart_quantity_actionBtns'>
-                    <button onClick={handleDecrease} className='subtraction_btn'>-</button>
-                    <span className='quantity_number'>{quantity.toString().padStart(2, '0')}</span>
-                    <button onClick={handleIncrease} className='addition_btn'>+</button>
-               </div>
-            </div>
+            <CartQuantity/>
 
             <div className='cart_product_price_main'>
                 <div>

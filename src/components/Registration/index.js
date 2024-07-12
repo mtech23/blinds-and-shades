@@ -26,7 +26,7 @@ const Registration = () => {
                         type="button"
                         className="w-100 user_login_actionBth"
                         text="register"
-                        onClick={() => navigate("/")}
+                        onClick={() => navigate("/account")}
                     />
                     </div>
     </>

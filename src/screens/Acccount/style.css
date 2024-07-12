@@ -137,6 +137,13 @@
     border: 1px solid #F27D04;
 }
 
+.actinTabBtn{
+    background-color: #F27D04;
+    box-shadow: none;
+    color: #fff;
+    border: 1px solid #F27D04;
+}
+
 
 .all_account_tab_btns {
     padding: 20px 0px 34px;
